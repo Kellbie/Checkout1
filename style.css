@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+}
+
+.formost-cart-second-div-heading{
+    width: 50%;
+    height: 36%;
+    font-weight: 600;
+    font-size: 150%;
+    line-height: 36%;
+    color: #000000;
+    margin-top: 3%;
+    margin-left: 42%;
+    height: 2.5rem;
+    border: none;
+}
+
+.continue-cart{
+    color: #6B809B;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-top: 4%;
+    border: none;
+    font-weight: 700;
+font-size: 116.815%;
+line-height: 140%;
+border-radius: 4.67259px;
+margin-left: 15%;
+padding-top: 1%;
+padding-bottom: 1%;
+padding-left: 2%;
+padding-right: 2%;
+width: 15%;
+outline: none;
+}
+
+.cart1-top-icons{
+    margin-left: 15%;
+    width: 65%;
+}
+
+.checkoutbutton-cart1{
+    margin-top: 4%;
+    margin-left: 36.5%;
+    border-radius: 4.67259px;
+    color: #FFFFFF;
+    padding: 1.5% 6% 1.5% 6%;
+    background-color:#F58634 ;
+    border: none;
+    outline: none;
+}
+
+
+.checkout1-second-div{
+    width: 65%;
+    height: 50%;
+    background-color: #FAFAFA;
+    margin-left: 15%;
+    margin-top: 3%;
+}
+
+/* start here */
+.row {
+    display: flex;
+    gap: 1%;
+  }
+  
+  .column-java {
+    display: flex;
+    flex-direction: column;
+    margin-left: 26%;
+  }
+  
+  label {
+    /*blue*/
+    border:1px solid #F58634;
+    color: #000000;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 12% 16%;
+  }
+  
+  label:hover,
+  input[type="radio"]:checked+label {
+    /*green*/
+    background-color: #F58634;
+    color: #FFFFFF;
+  }
+  
+  input[type="radio"] {
+    display: none;
+  }
+
+  .pickup-checkout1{
+    margin-bottom: 1%;
+  }
+
+.pickuplabel-checkout1{
+    margin-top: 50%;
+    padding-top: 100%;
+    padding-bottom: 100%;
+    padding-left: 400%;
+    padding-right: 200%;
+    margin-bottom: 20%;
+    height: 100%;
+    width: 300%;
+}
+
+.deliverylabel-checkout1{
+    padding-top: 100%;
+    padding-bottom: 100%;
+    padding-left: 400%;
+    padding-right: 500%;
+    margin-bottom: 50%;
+    height: 100%;
+}
+
+@media(min-width: 0px) and (max-width: 1024px){
+    .column-java{
+        margin-left: 10%;
+        width: 9%;
+    }
+
+    .formost-cart-second-div-heading{
+        margin-left: 40%;
+    }
+}
+
+ @media(min-width: 0px) and (max-width: 768px){
+    .column-java{
+        margin-left: 5%;
+        width: 10%;
+    }
+
+    .formost-cart-second-div-heading{
+        margin-left: 36%;
+    }
+
+    .formost-cart-second-div-heading{
+        margin-left: 25%;
+    }
+
+    .pickuplabel-checkout1{
+        padding-left: 400%;
+    }
+}
+
+@media(min-width: 0px) and (max-width: 320px){
+    .formost-cart-second-div-heading{
+        width: 70%;
+
+    }
+
+    .continue-cart{
+        width: 22%;
+    }
+}
